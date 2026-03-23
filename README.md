@@ -1,6 +1,6 @@
 # Deep Research 🔬
 
-**Status: BETA** — A structured 7-stage research protocol for questions that require more than a quick lookup. Goes from question to defensible brief with forced hypothesis generation and adversarial challenge before writing conclusions.
+**Status: GA** — A structured 7-stage research protocol for questions that require more than a quick lookup. Goes from question to defensible brief with forced hypothesis generation and adversarial challenge before writing conclusions.
 
 ---
 
@@ -113,7 +113,7 @@ Stage 7: Output      Write the brief with confidence level
 
 - **Version:** 1.2.0
 - **Health score:** 12/14
-- **Status:** BETA — GA after 3 real production runs logged (Q13/Q14 unvalidated)
+- **Status:** GA — 4 production runs completed 2026-03-23, avg 5.1/6 scorecard
 - **PRISM reviewed:** 2026-03-22 (6 reviewers, all AWC)
 - **Category:** Research & Analysis
 

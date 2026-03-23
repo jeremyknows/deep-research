@@ -13,8 +13,8 @@ version: 1.3.0
 license: MIT
 taxonomy_category: Research & Analysis
 health_score: 12/14
-status: BETA
-last_improved: 2026-03-22
+status: GA
+last_improved: 2026-03-23
 metadata:
   author: jeremyknows
 ---
@@ -27,7 +27,7 @@ hypothesis generation and adversarial challenge before writing conclusions.
 **Core insight:** Commit to a hypothesis *after* broad gathering but *before* filling evidence into a skeleton.
 This forces explicit prediction and makes it visible when evidence contradicts your initial read — reducing post-hoc rationalization.
 
-**Status: BETA** — Awaiting 3 real production runs before GA promotion. See Autoresearch section.
+**Status: GA** — 4 production runs completed 2026-03-23, avg 5.1/6 scorecard. See Autoresearch section.
 
 ---
 
@@ -239,7 +239,7 @@ Read when: Stage 7, before posting or filing any brief.
 
 ## Autoresearch
 
-**Baseline:** Not yet established — BETA release, 2026-03-22
+**Baseline:** 5.1/6 avg across 4 production runs (2026-03-23) — GA
 **Q13 (empirical):** ❌ NO — 0/3 real production runs completed
 **Q14 (observability):** ⚠️ PARTIAL — no structured run log yet
 
