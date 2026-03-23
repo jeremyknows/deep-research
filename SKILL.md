@@ -9,7 +9,7 @@ description: >
   NOT FOR: quick factual lookups (just answer), news summaries (use last30days),
   academic paper synthesis requiring 10+ peer-reviewed sources (use a dedicated academic
   search tool), real-time market data, debugging code (use systematic-debugging).
-version: 1.3.0
+version: 1.4.0
 license: MIT
 taxonomy_category: Research & Analysis
 health_score: 12/14
@@ -210,6 +210,27 @@ Read when: calibrating High / Medium / Low before finalizing the brief.
 📋 **Before filing:** run through `references/brief-quality-checklist.md`
 Read when: Stage 7, before posting or filing any brief.
 
+**Mandatory chat delivery (always post this after filing the brief):**
+
+After writing/filing the brief, post this structured summary to the user — every time, no exceptions.
+Do not replace this with freeform prose or scorecard commentary.
+
+```
+**[Question in plain language]**
+
+**Recommendation:** [One bold sentence. "Go" / "Wait" / "Don't" / specific action.]
+
+[2–3 sentences of supporting rationale. Most important evidence only.]
+
+**Confidence:** [High / Medium / Low] — [one phrase explaining why, e.g. "10 primary sources, counterargument is weak"]
+
+**Key tension:** [The one thing that could make this recommendation wrong.]
+
+📄 Full brief: `docs/research/<filename>.md`
+```
+
+Do not include: scorecard scores, stage commentary, "the brief landed at X/6", or any internal quality tracking. Those are for the autoresearch log, not the user.
+
 ---
 
 ## Known Limitations & Gotchas
@@ -274,4 +295,4 @@ Read when: Stage 7, before posting or filing any brief.
 
 ---
 
-*v1.3.0 — Watson 🎩 | 2026-03-23*
+*v1.4.0 — Watson 🎩 | 2026-03-23*
