@@ -9,7 +9,7 @@ description: >
   NOT FOR: quick factual lookups (just answer), news summaries (use last30days),
   academic paper synthesis requiring 10+ peer-reviewed sources (use a dedicated academic
   search tool), real-time market data, debugging code (use systematic-debugging).
-version: 1.2.0
+version: 1.3.0
 license: MIT
 taxonomy_category: Research & Analysis
 health_score: 12/14
@@ -24,8 +24,8 @@ metadata:
 Structured 7-stage research protocol. Goes from question to defensible brief — with forced
 hypothesis generation and adversarial challenge before writing conclusions.
 
-**Core insight:** Generate a hypothesis and build a skeleton *before* gathering evidence.
-This prevents confirmation bias from shaping what you look for.
+**Core insight:** Commit to a hypothesis *after* broad gathering but *before* filling evidence into a skeleton.
+This forces explicit prediction and makes it visible when evidence contradicts your initial read — reducing post-hoc rationalization.
 
 **Status: BETA** — Awaiting 3 real production runs before GA promotion. See Autoresearch section.
 
@@ -45,14 +45,15 @@ This prevents confirmation bias from shaping what you look for.
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-**Fast-path (Stages 1→2→7 only):** Use ONLY when ALL of the following are true:
+**Fast-path exception (Stages 1→2→7 only):** This is a declared exception to the full protocol, not a default path. Use ONLY when ALL four criteria are met:
 1. The question has a single clear answer (not a tradeoff)
 2. The stakes are low — being wrong costs <1 hour to correct
 3. You already have a working hypothesis with at least 2 primary sources
 4. No one will make a significant decision based on this brief alone
 
-If unsure, run the full protocol. Skipping Stage 6 costs 5 minutes. Shipping a wrong brief costs hours.
-State "fast-path" at the top of the output so the reader knows Stage 6 was skipped.
+State "**FAST-PATH — Stage 6 skipped**" at the top of the output so the reader knows the counterargument was not engaged. The "do not skip Stage 6" rule in Stage 6 applies to full-protocol runs — the fast-path exception explicitly overrides it when all four criteria are met.
+
+If unsure whether all four criteria are met, run the full protocol.
 
 ---
 
@@ -198,15 +199,8 @@ Write the structured brief.
 [URLs or descriptions of primary sources used]
 ```
 
-**Confidence thresholds:**
-
-| Level | Criteria |
-|---|---|
-| **High** | 3+ independent primary sources + weak counterargument + no major unknowns |
-| **Medium** | 1–2 primary sources, OR counterargument has merit, OR 1–2 significant unknowns |
-| **Low** | Mostly secondhand/opinion sources, OR strong counterargument, OR major unknowns |
-
-**Low confidence ≠ don't ship.** Flag it so the decision-maker knows how much weight to put on it.
+📋 **Confidence thresholds** → `references/brief-quality-checklist.md` (canonical)
+Read when: calibrating High / Medium / Low before finalizing the brief.
 
 **Output routing:**
 - Short briefs (< 300 words): reply inline
@@ -276,7 +270,8 @@ Read when: Stage 7, before posting or filing any brief.
 | 2026-03-22 | v1.0.0 — Initial release | — |
 | 2026-03-22 | v1.1.0 — Extracted source-routing + brief-quality-checklist to references/, removed EurekaClaw dependency, added skeleton gotcha, added 6-question scorecard | 9/14 |
 | 2026-03-22 | v1.2.0 — PRISM R1: fixed output path (docs/research/), GA→BETA, fast-path decision tree, Stage 6 counterargument calibration, source unit definition, concrete confidence thresholds, active injection guard in Stage 2, dependency fallbacks, extracted skeleton examples to references/, deduped Confidence table | 12/14 |
+| 2026-03-23 | v1.3.0 — PRISM R2: fixed path mismatch in brief-quality-checklist.md, resolved fast-path/Stage-6 contradiction, removed duplicate confidence table (canonical in checklist), corrected anti-bias framing (hypothesis after gather, before skeleton — not hypothesis-first) | 13/14 |
 
 ---
 
-*v1.2.0 — Watson 🎩 | 2026-03-22*
+*v1.3.0 — Watson 🎩 | 2026-03-23*

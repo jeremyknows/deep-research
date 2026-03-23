@@ -27,7 +27,7 @@ Run through before you hit send. A brief that fails 2+ checks should be revised 
 ## Format
 
 - [ ] **Short brief (< 300 words):** replied inline — no file needed
-- [ ] **Long brief (> 300 words):** written to `docs/knowledge/research/<slug>-YYYY-MM-DD.md`, linked inline
+- [ ] **Long brief (> 300 words):** written to `docs/research/<slug>-YYYY-MM-DD.md`, linked inline
 - [ ] **Research thread:** posted via `message(action=thread-reply)` into the correct thread
 
 ## Confidence Calibration Reference
