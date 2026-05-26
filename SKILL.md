@@ -79,6 +79,12 @@ Cast wide. Don't filter yet — that's Stage 5's job.
 📁 **Source routing by question type** → `references/source-routing.md`
 Read when: Stage 2, unfamiliar question type, or unsure which tools to use.
 
+📁 **Read-only agent/product evals** → `references/read-only-agent-product-evals.md`
+Read when evaluating external agents, CLIs, token-adjacent tools, or platforms under no-install/no-credential/no-wallet boundaries. It covers evidence ladders, vaporware discriminators, and the compact PASS/WATCH/NO report shape.
+
+📁 **Token-adjacent agent/tool evaluations** → `references/token-adjacent-agent-tool-evals.md`
+Read when: evaluating an AI agent/tool/project that also has a token, membership, airdrop, or holder-benefit narrative. Keep product fit, ecosystem signal, and token upside separate; default to no-install/no-wallet evidence unless explicitly scoped otherwise.
+
 **Source count rule:** 1 source = 1 independent document or artifact (1 GitHub repo, 1 blog post,
 1 X thread, 1 paper, 1 official doc page). Issues within a repo = part of that source, not separate sources.
 
