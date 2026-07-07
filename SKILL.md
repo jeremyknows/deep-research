@@ -29,6 +29,14 @@ This forces explicit prediction and makes it visible when evidence contradicts y
 
 **Status: GA** — 4 production runs completed 2026-03-23, avg 5.1/6 scorecard. See Autoresearch section.
 
+**Running it in the background:** *ported from `mp-research` (2026-07-07 skills MERGE-backlog
+execute-class).* If the question doesn't need your foreground attention while it's being
+answered, spin up a background agent to run the full 7-stage protocol and keep working in the
+meantime — its job is the same as any Stage-2-onward primary-source investigation, just off the
+main thread. Have it write findings to a single Markdown file, matching whatever convention the
+repo already uses for research notes (or `docs/research/` per Stage 7 below if there's no
+existing convention), and cite each claim's source in place.
+
 ---
 
 ## The 7 Stages
