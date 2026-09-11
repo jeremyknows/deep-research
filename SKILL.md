@@ -1,14 +1,6 @@
 ---
 name: deep-research
-description: >
-  7-stage structured research protocol for any question requiring more than a quick lookup.
-  Use when: (1) evaluating a tool, project, or technology for adoption, (2) competitive
-  or market analysis, (3) validating a concept or strategic thesis, (4) building a brief
-  that needs to hold up under scrutiny, (5) user says "/deep-research", "do a deep dive",
-  "research this properly", or opens a research thread and asks for a structured output.
-  NOT FOR: quick factual lookups (just answer), news summaries (use last30days),
-  academic paper synthesis requiring 10+ peer-reviewed sources (use a dedicated academic
-  search tool), real-time market data, debugging code (use systematic-debugging).
+description: "7-stage research protocol for questions that need more than a quick lookup. Use when evaluating a tool or technology, doing competitive analysis, validating a thesis, or asked for /deep-research or a proper deep dive. Not for quick facts or news summaries (last30days)."
 version: 1.4.0
 license: MIT
 taxonomy_category: Research & Analysis
